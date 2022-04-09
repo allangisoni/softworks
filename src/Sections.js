@@ -7,6 +7,12 @@ import Mysql from "./images/mysql.svg";
 import Php from "./images/php.svg";
 import Python from "./images/python.svg";
 import React from "./images/react.svg";
+import Firebase from "./images/firebase.svg";
+import Git from "./images/git.svg";
+import PowerBi from "./images/powerbi.svg";
+import PowerApps from "./images/powerapps.svg";
+import PowerAutomate from "./images/powerautomate.png";
+import R from "./images/r.png";
 
 import GithubIcon from "./images/ic_github.png";
 import LinkedInIcon from "./images/ic_linkedin.png";
@@ -36,8 +42,8 @@ export const Intro = (
       <div className="col-lg-0 col-md-0 col-sm-0"> </div>
       <div className="col-lg-12 col-md-12 col-sm-12">
         <div className="introDiv center">
-          <h4 className="introName">Hello World! {" "}  I'm </h4>
-          <h1 className="introH1"> Allan Gisoni.</h1>
+          <h4 className="introName">Hey, {" "}  I'm </h4>
+          <h1 className="introH1"> Allan Gisoni 👋</h1>
           <h1 className="introH1SubText">
             {" "}
             A software engineer from Nairobi Kenya!
@@ -126,7 +132,7 @@ export const AboutMe = (
               </p>
 
               <p className="introText">
-                <strong>Current Focus:</strong> ⭐Machine Learning, ⭐React, ⭐PHP
+                <strong>Current Focus:</strong> ⭐Machine Learning, ⭐React, ⭐PHP , ⭐Power Platform
                 
               </p>
 
@@ -191,6 +197,12 @@ export const TechStack = (
               <img src={Mysql} alt="MySql" width="70px" height="70px"className="stackImg" />
               <img src={Jquery} alt="Jquery" width="70px" height="70px"className="stackImg" />
               <img src={Wordpress} alt="Wordpress" width="70px" height="70px"className="stackImg" />
+              <img src={Git} alt="Git" width="70px" height="70px"className="stackImg" />
+              <img src={Firebase} alt="Firebase" width="70px" height="70px"className="stackImg" />
+              <img src={PowerAutomate} alt="Power Automate" width="70px" height="70px"className="stackImg" />
+              <img src={PowerApps} alt="Power Apps" width="70px" height="70px"className="stackImg" />
+              <img src={PowerBi} alt="Power Bi" width="70px" height="70px"className="stackImg" />
+              <img src={R} alt="R" width="70px" height="70px"className="stackImg" />
            
 
               <br />
@@ -240,7 +252,7 @@ export const Experience = (
                           <h3>Software Engineer</h3>
                           <div class="date">
                             <i class="fa fa-calendar"></i>February 2019 -
-                            Present
+                            March 2022
                           </div>
                           <h4>
                             <i class="fa fa-flag"></i>{" "}
@@ -256,8 +268,8 @@ export const Experience = (
                           <p class="projectParagraph">
                             Developed power automate flows and apps that
                             simplify business operations leading to increased
-                            productivity, team collaborations and $3400 monthly
-                            savings on paper.
+                            productivity, team collaborations, $3400 monthly
+                            savings on paper and 400+ hours time savings .
                           </p>
 
                           <p class="projectParagraph">
